@@ -568,7 +568,7 @@ header .logo span {
 
     opacity: 0;
     pointer-events: none;
-    transition: opacity 250ms ease-in-out;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-overlay.is-open {
@@ -673,7 +673,7 @@ header .logo span {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-text-input:focus-within+.modal-name-icon {
+.text-input:focus-within+.modal-name-icon {
     fill: #4d5ae5;
 }
 
@@ -784,5 +784,6 @@ textarea::placeholder {
 
 .send-button:hover,
 .send-button:focus {
-    background-color: chocolate;
+    background-color: #404bbf;
+    border: none;
 }
