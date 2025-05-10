@@ -491,10 +491,10 @@ header .logo span {
 .footer-subscribe-form {
     display: flex;
     gap: 24px;
+    align-items: flex-end;
 }
 
 .subscribe-title {
-    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -503,6 +503,7 @@ header .logo span {
 }
 
 .email-input {
+    margin-top: 11px;
     padding: 8px 16px;
     background-color: inherit;
     border: 1px solid #fff;
