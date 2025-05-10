@@ -504,6 +504,10 @@ header .logo span {
 }
 
 .email-input {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     padding: 8px 16px;
     background-color: inherit;
     border: 1px solid #fff;
@@ -519,7 +523,7 @@ header .logo span {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .subscribe-button {
